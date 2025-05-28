@@ -9,6 +9,7 @@ public class HelloWorld {
 		Scanner scanner = new Scanner(System.in);
 		
 		scanner.nextInt();
+		scanner.close();
 	}
 
 }

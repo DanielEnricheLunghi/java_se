@@ -9,6 +9,7 @@ public class AreaCerchio {
 		double raggio = scanner.nextDouble();
 		double area = Math.PI * raggio * raggio;
 		System.out.println("l' area è " + area);
+		scanner.close();
 		
 
 	}

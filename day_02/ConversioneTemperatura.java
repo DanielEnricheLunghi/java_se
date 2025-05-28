@@ -9,6 +9,7 @@ public class ConversioneTemperatura {
 		double input = scanner.nextDouble();
 		double fahrenheit = input * 9.0 / 5.0 + 32;
 		System.out.println("la temperatura in farenheit è " + fahrenheit);
+		scanner.close();
 		
 	}
 

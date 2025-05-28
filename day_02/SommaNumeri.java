@@ -14,6 +14,7 @@ public class SommaNumeri {
 		int numero2 = scanner.nextInt();
 		int somma = numero1 + numero2;
 		System.out.println("la somma è " + somma);
+		scanner.close();
 		
 		
 

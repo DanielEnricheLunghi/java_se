@@ -13,6 +13,7 @@ public class AreaRettangolo {
 		double altezza = scanner.nextDouble();
 		double area = base * altezza;
 		System.out.println("area è " + area);
+		scanner.close();
 	}
 
 }
