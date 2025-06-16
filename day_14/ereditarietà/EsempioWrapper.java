@@ -9,7 +9,7 @@ public class EsempioWrapper {
 		for(Number n : numeri) {
 			if(n instanceof Double) {
 				System.out.println("è una double " + n);
-				;
+				
 				}else if(n instanceof Integer) {
 					System.out.println("è un' integer " + n);
 					double x = (Integer) n;
